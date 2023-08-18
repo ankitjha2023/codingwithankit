@@ -1,6 +1,11 @@
 const courses = [
     {
         imgsrc:"https://www.codewithharry.com/img/notes/c.webp",
+        name:"C",
+        href:"https://www.youtube.com/playlist?list=PL7Xm-HsLEy4xZpA2uI-jyxc9X9KZSPiqi"
+    },
+    {
+        imgsrc:"https://www.codewithharry.com/img/notes/cpp.webp",
         name:"C++",
         href:"https://youtube.com/playlist?list=PL7Xm-HsLEy4x4iWGJ3rMbDbfiTDo7izhy"
     },
@@ -27,6 +32,11 @@ const courses = [
     {
         imgsrc:"https://www.codewithharry.com/img/notes/js.webp",
         name:"javascript",
+        href:"https://www.youtube.com/playlist?list=PL7Xm-HsLEy4xVvqdhphXfCr2uZIwRdJ5r"
+    },
+    {
+        imgsrc:"https://www.codewithharry.com/img/notes/reactjs.webp",
+        name:"React",
         href:"https://www.youtube.com/playlist?list=PL7Xm-HsLEy4xVvqdhphXfCr2uZIwRdJ5r"
     },
 

@@ -2,15 +2,12 @@
 
 body{
     font-family: 'Noto Sans', sans-serif;
+    background-color: rgb(206, 206, 241);
+    background-attachment: fixed;
 }
 
 ::-webkit-scrollbar{
     display: none;
-}
-@media (max-width:1024px) {
-    #hero-img{
-        display: none;
-    }
 }
 
 @media (min-width:768px) and  (max-width:1024px) {
@@ -20,6 +17,9 @@ body{
     #hero-para{
         text-align: center;
         align-items: center;
+    }
+    #hero-img{
+        display: none;
     }
 }   
 
