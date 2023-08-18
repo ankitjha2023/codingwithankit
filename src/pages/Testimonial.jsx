@@ -9,7 +9,7 @@ const Testimonial = () => {
     </h1>
     <div className="flex flex-wrap -m-4">
       <div className="p-4 md:w-1/2 w-full">
-        <div className="h-full bg-gray-100 p-8 rounded">
+        <div className="h-full bg-gray-100 p-8 rounded shadow-lg">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="currentColor"
@@ -27,7 +27,7 @@ const Testimonial = () => {
           <a className="inline-flex items-center">
             <img
               alt="testimonial"
-              src="https://dummyimage.com/106x106"
+              src="https://source.unsplash.com/300x300/?man,businessman"
               className="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center"
             />
             <span className="flex-grow flex flex-col pl-4">
@@ -40,7 +40,7 @@ const Testimonial = () => {
         </div>
       </div>
       <div className="p-4 md:w-1/2 w-full">
-        <div className="h-full bg-gray-100 p-8 rounded">
+        <div className="h-full bg-gray-100 p-8 rounded shadow-lg">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="currentColor"
@@ -58,7 +58,7 @@ const Testimonial = () => {
           <a className="inline-flex items-center">
             <img
               alt="testimonial"
-              src="https://dummyimage.com/107x107"
+              src="https://source.unsplash.com/300x300/?man,actor"
               className="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center"
             />
             <span className="flex-grow flex flex-col pl-4">

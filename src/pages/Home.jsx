@@ -1,14 +1,8 @@
 import React from 'react'
-import ImageSlider from '../components/ImageSlider'
 import Videos from './Videos';
 import Testimonial from './Testimonial';
 import { Link } from 'react-router-dom';
-const images = [
-  'image1.jpg',
-  'image2.jpg',
-  'image3.jpg',
-  // Add more image URLs here
-];
+
 
 const Home = () => {
   return (
@@ -36,7 +30,7 @@ const Home = () => {
         </div>
       </div>
       <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6" id='hero-img'>
-       <ImageSlider images={images}/>
+      <img src="/hero.png" alt="hero" width={400} className='mx-auto'/>
       </div>
     </div>
   </section>

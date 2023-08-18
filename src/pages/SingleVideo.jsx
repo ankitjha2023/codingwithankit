@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import { useParams } from 'react-router-dom'
 import videos from '../api/videos'
 import ReactPlayer from 'react-player'
-import Videos from './Videos'
+
 
 const SingleVideo = () => {
     const [video,setVideo] = useState({})
@@ -44,7 +44,7 @@ const SingleVideo = () => {
     </div>
   </div>
 </section>
-<Videos/>
+
 </>
 
   )
