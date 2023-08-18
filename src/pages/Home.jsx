@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom';
 const Home = () => {
   return (
     <>
-    <section className="text-gray-600 body-font bg-white">
+    <section className="text-gray-600 body-font bg-slate-100">
     <div className="container mx-auto flex px-5 py-12 md:flex-row flex-col-reverse items-center">
       <div className="lg:flex-grow md:w-full lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-start  md:mb-0 items-center text-center" id='hero-para'>
         <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900 mt-5">
@@ -30,7 +30,7 @@ const Home = () => {
         </div>
       </div>
       <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6" id='hero-img'>
-      <img src="/hero.png" alt="hero" width={300} className='mx-auto'/>
+      <img src="/hero.png" alt="hero" width={400} className='mx-auto'/>
       </div>
     </div>
   </section>

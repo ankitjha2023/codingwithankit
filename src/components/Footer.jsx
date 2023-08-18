@@ -1,12 +1,12 @@
 import React from 'react'
-import logo from "../assets/logo.png"
+
 const Footer = () => {
   return (
-    <footer className="text-gray-600 body-font">
+    <footer className="text-gray-600 body-font bg-slate-100">
     <div className="container px-5 py-4 mx-auto flex items-center sm:flex-row flex-col">
       <a className="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
            
-        <img src={logo} alt="codingwithankit logo"  width={50} className='rounded-full' />
+        <img src="/logo.png" alt="codingwithankit logo"  width={50} className='rounded-full' />
         <span className="ml-3 text-xl">CodingWithAnkit</span>
       </a>
       <p className="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">

@@ -2,8 +2,7 @@
 
 body{
     font-family: 'Noto Sans', sans-serif;
-    background-color: rgb(206, 206, 241);
-    background-attachment: fixed;
+  
 }
 
 ::-webkit-scrollbar{
