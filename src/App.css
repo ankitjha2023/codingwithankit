@@ -2,7 +2,7 @@
 
 body{
     font-family: 'Noto Sans', sans-serif;
-  
+    background-color: rgba(241, 238, 238, 0.397);
 }
 
 ::-webkit-scrollbar{
@@ -17,8 +17,13 @@ body{
         text-align: center;
         align-items: center;
     }
+    
+    
+}   
+
+@media (max-width:1024px) {
     #hero-img{
         display: none;
     }
-}   
+}
 

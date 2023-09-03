@@ -4,7 +4,7 @@ import links from '../api/links'
 import { Link } from 'react-router-dom'
 const Navbar = () => {
   return (
-    <header className="text-gray-600 body-font ">
+    <header className="text-gray-600 body-font">
     <div className="container mx-auto flex flex-wrap p-3 flex-col md:flex-row items-center">
       <Link className="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0" to="/">
         <img src="/logo.png" alt="logo" width={50} className='rounded-full'/>
